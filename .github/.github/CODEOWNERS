@@ -1,7 +1,0 @@
-src/01-safe-support-agent.ts @support-platform
-src/02-customer-success-rag.ts @customer-success @security
-src/03-finance-refund-agent.ts @finance-ops @security
-src/04-devops-mcp-server.ts @platform-security
-src/05-autogen-data-analyst.py @data-platform @security
-mcp.json @platform-security
-rag-inventory.json @customer-success @security
