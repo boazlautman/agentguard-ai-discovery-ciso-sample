@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "support-safe": {
+      "command": "node",
+      "args": ["dist/support-safe-mcp.js"],
+      "tools": ["search_help_center", "lookup_order_status"]
+    },
+    "devops-critical": {
+      "command": "node",
+      "args": ["dist/devops-critical-mcp.js"],
+      "tools": ["shell_exec", "write_file", "github_write_pr", "webhook_post_deploy_status"]
+    },
+    "finance-sensitive": {
+      "command": "node",
+      "args": ["dist/finance-sensitive-mcp.js"],
+      "tools": ["stripe_refund_payment", "postgres_customer_database", "email_invoice_export"]
+    }
+  }
+}

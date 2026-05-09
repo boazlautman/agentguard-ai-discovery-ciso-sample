@@ -1,0 +1,12 @@
+{
+  "name": "agentguard-ai-discovery-ciso-sample",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Discovery fixture with AI agents, MCP, RAG, and varied risk flows for CISO visualization.",
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest",
+    "@langchain/langgraph": "latest",
+    "@modelcontextprotocol/sdk": "latest",
+    "openai": "latest"
+  }
+}
